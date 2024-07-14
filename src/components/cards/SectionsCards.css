@@ -1,0 +1,56 @@
+.mod__spacecard {
+    width: 100%;
+    background-color: #191919;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.mod__spacecard h1 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-size: 32px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 16px;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+}
+.mod__cardcontainer {
+    display: flex;
+    overflow-y: auto;
+    gap: 50px;
+    padding-bottom: 15px;
+}
+.mod__cardcontainer::-webkit-scrollbar {
+    width: 15px;
+}
+.mod__cardcontainer::-webkit-scrollbar-track {
+    background: #add8e6; 
+}
+.mod__cardcontainer::-webkit-scrollbar-thumb {
+    background-color: #2f81e6; 
+    border-radius: 10px; 
+    border: 3px solid #191919;
+}
+.mod__cardcontainer {
+    scrollbar-width: thin;
+    scrollbar-color: #2f81e6 #032d61;
+}
+.mod__cardcontainer.overflow-y {
+    border: 2px solid #2f81e6;
+}
+
+@media (max-width: 900px) {
+    .mod__spacecard h1 {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .mod__spacecard h1 {
+        width: 70%;
+        padding: 15px 30px;
+        font-size: 24px;
+    }
+}

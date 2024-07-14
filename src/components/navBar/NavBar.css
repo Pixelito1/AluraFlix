@@ -1,0 +1,51 @@
+.mod__navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  padding: 20px 50px;
+  box-shadow: 0 0 5px 5px rgba(34, 113, 209, 0.7);
+  z-index: 10;
+}
+
+.mod__navbar img {
+  justify-content: center;
+  width: 10%;
+  height: auto;
+}
+
+.mod__navbar div {
+  display: flex;
+  gap: 5vh;
+  margin: 0 100px 0 0 ;
+}
+
+@media (max-width: 1200px) {
+  .mod__navbar {
+      padding: 15px 25px;
+  }
+
+  .mod__navbar img {
+      width: 18%;
+  }
+
+  .mod__navbar div {
+      gap: 4vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .mod__navbar {
+      width: 100%;
+      justify-content: center;
+      bottom: 0; /* Añadido para posicionar en la parte inferior */
+      top: auto; /* Asegura que la parte superior no esté definida */
+  }
+
+  .mod__navbar img {
+      display: none;
+  }
+}
+

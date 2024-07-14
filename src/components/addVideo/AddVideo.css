@@ -1,0 +1,65 @@
+.mod__addvideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202020;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.mod__divideo{
+    padding-top: 150px;
+    margin-bottom: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: start;
+    background-color: #202020;
+    gap: 30px;
+}
+.mod__addvideo  h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.mod__addvideo  h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.mod__addvideo  p{
+    color: white;
+    font-size: 36px;
+    padding: 50px 0px 20px 0px ;
+}
+.mod__addvideotext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mod__videotextdesc{
+    width: 1000px;
+}
+.mod__addbutt{
+    display: flex;
+    gap: 80px;
+}
+
+@media (max-width: 900px) {
+    .mod__addbutt{
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .mod__addbutt{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .mod__addvideotext{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+}

@@ -1,0 +1,53 @@
+.mod__cards{
+    display: flex;
+    flex-direction: column;
+    width: 429px;
+    height: auto;
+    border-radius: 16px;
+}
+.mod__cards img{
+    width: 429px;
+    height: 260px;
+    border-radius: 16px 16px 0 0;
+}
+.mod__divcardbutton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20%;
+}
+
+.mod__divcardbutton img{
+    width: 30%;
+    height: auto;
+}
+.mod__divbuttonimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+@media (max-width: 900px) {
+    .mod__cards img{
+        width: 385px;
+        height: 212px;
+    }
+    .mod__divcardbutton img{
+        width: 30%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .mod__cards img{
+        width: 288px;
+        height: 180px;
+    }
+    .mod__divcardbutton img{
+        width: 25%;
+        height: auto;
+    }
+  
+}

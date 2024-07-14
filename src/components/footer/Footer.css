@@ -1,0 +1,24 @@
+.mod__footer{
+    background-color: #000000;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(34, 113, 209, 0.7);
+}
+.mod__footer img{
+    padding: 30px;
+    width: 10%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .mod__footer img{
+        padding: 30px;
+        width: 20%;
+        height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mod__footer{
+       display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.mod__site, .mod__options{
+    margin: 24px 0;
+}
+.mod__site label, .mod__options label{
+    font-size: 31px;
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+}
+.mod__site input, .mod__options select{
+    width: 100%;
+    font-size: 20px;
+    background-color: #03122fca;
+    border-radius: 8px;
+    border: 2px solid #2271D1;
+    color: #A5A5A5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.mod__site input:hover, .mod__options select:hover {
+    border-color: #339af0;
+}
+.mod__site input:focus, .mod__options select:focus {
+    outline: none;
+    border-color: #339af0;
+    box-shadow: 0 0 5px rgba(51, 154, 240, 0.5);
+}
+@media (max-width: 767px) {
+    .mod__site label, .mod__options label{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
